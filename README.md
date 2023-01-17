@@ -2,7 +2,7 @@
 
 # Step 1 : Basic bash
 
-- Create a bash Script "Bash1.sh" that print its given arguments
+- Create a bash Script "Step1.sh" that print its given arguments
 
 for exemple :
 ```bash
@@ -11,50 +11,50 @@ for exemple :
 
 The output should be:
 ```bash
-Hello World
+$ Hello World
 ```
 
 # Step 2 : Handling file
 
-Create a bash script named "Bash2.sh" that :
-- create a file named "step2"
-- insert "Hello World" in the file "step2"
-- print the content off "step2"
+Create a bash script named "Step2.sh" that :
+- create a file named "test"
+- insert "Hello World" in the file "test"
+- print the content off "test"
 
 The output should be:
 ```bash
-Hello World
+$ Hello World
 ```
 # Step 3 : Check file content
 
-Content of the file "Wrong_File" :
+Content of the file "File1" :
 
 ```bash
 84
 ```
 
-Content of the file "Good_File" :
+Content of the file "File2" :
 
 ```bash
 42
 ```
 
-Create a bash script named "Bash3.sh" that take one file as argument.
+Create a bash script named "Step3.sh" that take one file as argument.
 Whenever the content of the file is "42" print "Good File" else print "Wrong File"
 
 For the fisrt file the output should be :
 
 ```bash
-Wrong File
+$ Wrong File
 ```
 
 For the second file the output should be :
 
 ```bash
-Good File
+$ Good File
 ```
 
-# step 4 : Make a prefabricated file :
+# Step 4 : Make a prefabricated file :
 
 Create a script Bash named "Bash4.sh" that :
 - Take a "File_Prefab" file as arguments
@@ -69,7 +69,7 @@ INC:
 #include <unistd>
 #include <string.h>
 FNC: 
-void main(char **argv) {
+void main(int argc, char **argv) {
   write(1, argv[1], strlen(argv[1]));
   return 0;
 }
@@ -88,7 +88,7 @@ The file created should be "main.c" and is content should be :
 #include <unistd.h>
 #include <string.h>
 
-int main(char **argv)
+int main(int argc, char **argv)
 {
     write(1, argv[1], strlen(argv[1]));
     return (0);
