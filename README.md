@@ -1,6 +1,7 @@
 # WorkshopBash
 
 # Step 1 : Basic bash
+(5/10 min)
 
 - Create a bash Script "Step1.sh" that print its given arguments
 
@@ -15,6 +16,7 @@ $ Hello World
 ```
 
 # Step 2 : Handling file
+(10 min)
 
 Create a bash script named "Step2.sh" that :
 - create a file named "test"
@@ -26,6 +28,7 @@ The output should be:
 $ Hello World
 ```
 # Step 3 : Check file content
+(10:15 min)
 
 Content of the file "File1" :
 
@@ -55,6 +58,7 @@ $ Good File
 ```
 
 # Step 4 : Make a prefabricated file :
+(30 min)
 
 Create a script Bash named "Bash4.sh" that :
 - Take a "File_Prefab" file as arguments
@@ -96,6 +100,7 @@ int main(int argc, char **argv)
 ```
 
 # Step 5 : Make a architecture constructor :
+(45 min)
 
 In a Folder "step5" create a script Bash named "step5.sh" that :
 - Take a "config_file" as argument (the "config file" represent the folder architecture off a project).
@@ -127,6 +132,7 @@ Your tree should look like :
 ```
 
 # Step 6 : Make a Makefile constructor :
+(45 min)
 
 Create a Bash script named "stap6.sh" that :
 - Take a "config" file
