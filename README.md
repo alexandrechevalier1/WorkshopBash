@@ -19,7 +19,7 @@ $ Hello World
 Create a bash script named "Step2.sh" that :
 - create a file named "test"
 - insert "Hello World" in the file "test"
-- print the content off "test"
+- print the content of "test"
 
 The output should be:
 ```bash
@@ -39,7 +39,7 @@ Content of the file "File2" :
 42
 ```
 
-Create a bash script named "Step3.sh" that take one file as argument.
+Create a bash script named "Step3.sh" that take a filepath as argument.
 Whenever the content of the file is "42" print "Good File" else print "Wrong File"
 
 For the fisrt file the output should be :
@@ -95,11 +95,11 @@ int main(int argc, char **argv)
 }
 ```
 
-# Step 4 : Make a architecture constructor :
+# Step 5 : Make a architecture constructor :
 
-Create a script Bash named "Bash4.sh" that :
-- Take a "config_file" as argument that represent the folder architecture off a project.
-- Create the architecture represented in "Config_File"
+In a Folder "step5" create a script Bash named "step5.sh" that :
+- Take a "config_file" as argument (the "config file" represent the folder architecture off a project).
+- Create the architecture represented in "Config_File".
 
 The content off "Config_File" is :
 
@@ -112,7 +112,7 @@ The content off "Config_File" is :
   -calculus.h
 ```
 
-make tree it should look like :
+Your tree should look like :
 
 ```bash
 .
@@ -126,9 +126,9 @@ make tree it should look like :
 3 directories, 4 files
 ```
 
-# Step 5 : Make a Makefile constructor :
+# Step 6 : Make a Makefile constructor :
 
-Create a Bash script that :
+Create a Bash script named "stap6.sh" that :
 - Take a "config" file
 - Create a Makefile with the content off the "config" file
 
@@ -168,8 +168,8 @@ The Makefile created should look, like :
 ##
 
 SOURCES_DIR	= 	src/main.c 	\
-				src/calculus.c 	\
-				src/error_management.c 	\
+			src/calculus.c 	\
+			src/error_management.c 	\
 
 OBJ	=	$(SRC)
 
