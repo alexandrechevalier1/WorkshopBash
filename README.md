@@ -9,7 +9,7 @@ For all this Workshop, don't forget to "chmod +x" all your script
 
 for exemple :
 ```bash
-./Bash1.sh "Hello world"
+./Bash1.sh "Hello World"
 ```
 
 The output should be:
@@ -30,7 +30,7 @@ The output should be:
 $ Hello World
 ```
 # Step 3 : Check file content
-(10:15 min)
+(10/15 min)
 
 Content of the file "File1" :
 
