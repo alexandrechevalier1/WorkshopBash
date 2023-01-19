@@ -32,20 +32,20 @@ The output should be:
 # Step 3 : Check file content
 (10/15 min)
 
-Content of the file "File1" :
+Content of the file "file1" :
 
 ```bash
 84
 ```
 
-Content of the file "File2" :
+Content of the file "file2" :
 
 ```bash
 42
 ```
 
 
-Create a bash script named "Step3.sh" that take a filepath of one of this file as argument.
+Create a bash script named "step3.sh" that take a filepath of one of this file as argument.
 Whenever the content of the file is "42" print "Good File" else print "Wrong File"
 
 
