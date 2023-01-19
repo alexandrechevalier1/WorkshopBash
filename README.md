@@ -44,19 +44,21 @@ Content of the file "File2" :
 42
 ```
 
-Create a bash script named "Step3.sh" that take a filepath as argument.
+
+Create a bash script named "Step3.sh" that take a filepath of one of this file as argument.
 Whenever the content of the file is "42" print "Good File" else print "Wrong File"
+
 
 For the fisrt file the output should be :
 
 ```bash
-$ Wrong File
+> Wrong File
 ```
 
 For the second file the output should be :
 
 ```bash
-$ Good File
+> Good File
 ```
 
 # Step 4 : Make a prefabricated file :
