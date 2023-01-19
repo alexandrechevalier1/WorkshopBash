@@ -27,7 +27,7 @@ Create a bash script named "step2.sh" that :
 
 The output should be:
 ```bash
-$ Hello World
+> Hello World
 ```
 # Step 3 : Check file content
 (10/15 min)
