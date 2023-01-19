@@ -14,7 +14,7 @@ for exemple :
 
 The output should be:
 ```bash
-$ Hello World
+> Hello World
 ```
 
 # Step 2 : Handling file
