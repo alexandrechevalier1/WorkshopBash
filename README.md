@@ -20,10 +20,10 @@ The output should be:
 # Step 2 : Handling file
 (10 min)
 
-Create a bash script named "Step2.sh" that :
+Create a bash script named "step2.sh" that :
 - create a file named "test"
 - insert "Hello World" in the file "test"
-- print the content of "test"
+- print the content of this file
 
 The output should be:
 ```bash
