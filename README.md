@@ -64,11 +64,11 @@ For the second file the output should be :
 # Step 4 : Make a prefabricated file :
 (30 min)
 
-Create a script Bash named "Bash4.sh" that :
-- Take a "File_Prefab" file as arguments
-- Use it to Préfabricate a file
+Create a script Bash named "step4.sh" that :
+- Take a "configfile" filepath as arguments
+- Use it to create a file
 
-the Content of the "File_Prefab" is :
+the Content of the "config_file" is :
 
 ```txt
 FILE_NAME:
