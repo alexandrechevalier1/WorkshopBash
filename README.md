@@ -1,5 +1,7 @@
 # WorkshopBash
 
+For all this Workshop, don't forget to "chmod +x" all your script 
+
 # Step 1 : Basic bash
 (5/10 min)
 
