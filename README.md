@@ -5,11 +5,11 @@ For all this Workshop, don't forget to "chmod +x" all your script
 # Step 1 : Basic bash
 (5/10 min)
 
-- Create a bash Script "Step1.sh" that print its given arguments
+- Create a bash script named "step1.sh" that print it's given arguments
 
 for exemple :
 ```bash
-./Bash1.sh "Hello World"
+./step1.sh "Hello World"
 ```
 
 The output should be:
