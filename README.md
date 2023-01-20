@@ -71,12 +71,12 @@ Create a script Bash named "step4.sh" that :
 the Content of the "config_file" is :
 
 ```txt
-FILE_NAME:
+FILE_NAME
 main.c
-INC:
+INC
 #include <unistd>
 #include <string.h>
-FNC: 
+FNC 
 void main(int argc, char **argv) {
   write(1, argv[1], strlen(argv[1]));
   return 0;
