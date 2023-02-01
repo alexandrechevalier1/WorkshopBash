@@ -141,6 +141,7 @@ Your tree should look like :
 Create a Bash script named "stap6.sh" that :
 - Take a "config" file
 - Create a Makefile with the content off the "config" file
+- The architecture of the project is implicitly describe with the lines SOURCES_DIR and PROJECT_DIR
 
 The Content of the "config" file is :
 
@@ -197,7 +198,21 @@ fclean:		clean
   rm -f $(NAME)
 
 re:		fclean all
+
 ```
+Your tree should look like :
+
+```bash
+.
+├── makefile
+└── src
+    ├── calculus.c
+    ├── error_management.c
+    └── main.c
+
+2 directories, 4 files
+```
+
 
 
 
