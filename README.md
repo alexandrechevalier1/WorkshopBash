@@ -138,7 +138,7 @@ Your tree should look like :
 # Step 6 : Make a Makefile constructor :
 (45 min)
 
-Create a Bash script named "stap6.sh" that :
+Create a Bash script named "step6.sh" that :
 - Take a "config" file
 - Create a Makefile with the content off the "config" file
 - The architecture of the project is implicitly describe with the lines SOURCES_DIR and PROJECT_DIR
