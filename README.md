@@ -1,5 +1,6 @@
 # WorkshopBash
 
+The goal of this workshop is to facilitate the creation of makefiles
 For all this Workshop, don't forget to "chmod +x" all your script 
 
 # Step 1 : Basic bash
